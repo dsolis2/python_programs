@@ -1,4 +1,4 @@
-# Program to find the average of a set of integers
+# A simple program to find the average of a set of integers
 
 count = int(input("Enter the count of numbers: "))
 i = 0
