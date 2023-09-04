@@ -1,4 +1,3 @@
 # python_programs
-This program finds the average of integer numbers.The user enters the coun
-of numbers to be avearaged, then is prompted to enter the intergers to be averaged.
+The program will prompt the user to enter the number of integers to be avaraged. Then the user will enter an integer up to the count entered and find the average of the numbers entered.
 
