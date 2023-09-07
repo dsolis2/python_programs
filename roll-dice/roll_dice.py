@@ -1,7 +1,7 @@
 import random
 
 def roll_dice(x, y):
-    pass
+    
     # Generate two random numbers from 1 to 6 that represents 2 dice
     return random.randint(x,y)
 
