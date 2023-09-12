@@ -4,7 +4,6 @@
 from random import randint
 from collections import Counter
 
-
 def roll_dice(*dice, trials = 3_000_000):
     pass
     #In Python, underscores are used for user readability only. The Python Interpreter 
@@ -19,3 +18,4 @@ def roll_dice(*dice, trials = 3_000_000):
       
 # argument takes in the number of sides, for example, the 4,6,6 = 4 sided die, and two 6 sided dice.
 result = roll_dice (4,6,6)
+ 
