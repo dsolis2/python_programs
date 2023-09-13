@@ -53,4 +53,13 @@ complicated_kwargs(x = 1, s = 'hello', b = True)
 print('Passing any number of arguments and key value arguments')
 complicated_kwargs(1, 2, 3, x = 1, s = 'hello', b = True) 
 
+# Accepts decomposed lists and dicts - Wow!
+def very_complicated_func(a, b, c = True, d = False):
+    print('Values from the list and dict :', a, b, c, d)
+
+# Using the * decomposes the list to 2 positional arguments
+# if you do not use the asterisks in front of the list or dict
+# it will pass them as list or dict.
+very_complicated_func(*[1, 2], **{'c':'hello', 'd': 'Cool'})    
+
 
