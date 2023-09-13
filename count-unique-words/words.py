@@ -5,7 +5,7 @@ if len(name) < 1:
     name = "words.txt"
 handle = open(name, 'r')
 counts = dict()
-for line in fhand:
+for line in handle:
     line = line.translate(str.maketrans('', '', string.punctuation))
     print(line)
     line = line.lower()
