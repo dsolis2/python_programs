@@ -12,7 +12,7 @@ for line in fhand:
     words = line.split()
     # split creates a list of words per line
     for word in words:
-        # Builds the dictionary and key value pairs or builds the histogram 
+        # Builds the dictionary and key value pairs and builds the histogram 
         counts[word] = counts.get(word, 0) + 1     
     for word in words:
         # Idiom that callapses for lines of code into one using the get() method
