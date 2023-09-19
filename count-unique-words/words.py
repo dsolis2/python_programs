@@ -27,6 +27,7 @@ print('Total Words: ',len(counts))
 lst = list()
 for key, val in list(counts.items()):
     lst.append((val, key))
+print(lst)    
 
 # sort the list
 lst.sort(reverse=True)
