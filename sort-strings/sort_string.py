@@ -1,21 +1,20 @@
-# sorting a string
-# Take in input of strings (sentence) from the console
-# split the strings
-# sort the list of strings
+# This program uses three different wasy to sort a list of strings
+
 
 while True:
-    words = input('Enter a phrase ')
+    words = input('Enter a phrase. To quit the game, type "quit" ')
     if words == 'quit':
         break
     t = words.split()
+
     print(t)
     t.sort()
     print(t, 'using sort()')
     x = sorted(t)
     print(x, 'using sorted()')
-    x = sorted(t, key=lambda v: v.upper())
-    print(x, 'using lambda')
-    print(' '.join(sorted(words.split(), key=str.casefold)),'using alternate solution')
+    y = sorted(t, key=lambda v: v.upper())
+    print(y, 'using lambda')
+    print(' '.join(sorted(words.split(), key=str.casefold)),',using alternate solution')
 
 # alternate solution
 #''.join(sorted(words.split(), key=str.casefold))
