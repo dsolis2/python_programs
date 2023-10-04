@@ -1,5 +1,5 @@
 # python_programs
-This program will determine the probablity of different outcomes when rolling an arbitry set of dice. the program uses theMonte Carlo simulation, which uses a random sampling evaluate possible outcomes
+This program will determine the probablity of different outcomes when rolling an arbitry set of dice. the program uses the Monte Carlo simulation, which uses a random sampling evaluate possible outcomes
 
 The program should simulate rolling dice over and over to see how many times each outcome occurs and then determine the probabilities based on that. You'll need to simulate a really large number of rolls to get a result that's statistically significant. For simplicity, let's say a million simulations. The function should accept a variable number of input arguments, representing the number of sides on an arbitrary number of dice, and its output should print a table of the probability for each possible outcome. For example, a call to the function for one four-sided die and two six-died dice might look something like this:
 
