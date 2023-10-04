@@ -1,6 +1,8 @@
-# This program will evaluate a string if 
-# it reads forwards or backwards the same.
-# input is string [A-Z] and ignores case and spaces
+'''
+Evaluate a string if it reads forwards or backwards the same.
+input is string [A-Z] and ignores case and spaces
+
+'''
 
 import re
 import string
