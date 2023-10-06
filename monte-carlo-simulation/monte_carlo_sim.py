@@ -19,4 +19,6 @@ def roll_dice(*dice, trials = 1_000_000):
       
 # argument takes in the number of sides, for example, the 4,6,6 = 1 sided die, and two 6 sided dice.
 result = roll_dice (4,6,6)
+
+
  
