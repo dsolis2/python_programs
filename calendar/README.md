@@ -1,5 +1,6 @@
 # python_programs
-This repo is a collection of random python programs:
+
+Python program to display calendar.
 
 
 
