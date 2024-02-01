@@ -1,5 +1,7 @@
 # python_programs
-This repo is a collection of random python programs for beginners 
+Python program to solve classic programming challenge
+adding some text
+
 
 
 
