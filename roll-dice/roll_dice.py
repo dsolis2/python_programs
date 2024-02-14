@@ -13,12 +13,15 @@ def roll_dice(x, y):
 
 # Roll 2 dices, 1 call for each roll. The list captures the results for later use
 # not yet implemented. This code can be written without a funcion.
+
 lst = list()
 count = 1    
-while count <= 50:  
+while count <= 10:  
     result1 = roll_dice(1, 6)
+    print("-----------")
     lst.append(result1)
     print('Roll: ', count)
+   
     print('1st dice: %s' % (result1))
     result2 = roll_dice(1, 6)
     print('2nd dice:', result2)
