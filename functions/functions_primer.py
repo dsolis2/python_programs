@@ -37,6 +37,7 @@ any_num_args(1,2,3)
 def combo_args_pos(x, y, *args):
     print('Positional and args: ', y, args)
     pass
+
 # Pass positional arguments and any number of arguments
 combo_args_pos(1, 2, 'arg1', 'arg2')   
 
