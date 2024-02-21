@@ -1,5 +1,7 @@
 # python_programs
-This repo is a collection of random python programs for beginners 
+This is a simple counting loop using user defined modules
 
 
+
+    
 
